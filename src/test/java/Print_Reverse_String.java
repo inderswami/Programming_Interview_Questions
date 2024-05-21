@@ -1,4 +1,4 @@
-public class Reverse_String {
+public class Print_Reverse_String {
     public static void main(String[] args) {
 String s="Hellow Inder";
 String s1=s.toLowerCase();

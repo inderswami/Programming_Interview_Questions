@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Occurence_Character_InString {
+public class Print_Occurence_Character_InString {
     public static void main(String[] args) {
         String str="Hellowhelowuioop";
         HashMap<Character,Integer> map=new HashMap<>();

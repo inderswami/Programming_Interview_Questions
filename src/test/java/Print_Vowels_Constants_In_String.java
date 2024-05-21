@@ -1,4 +1,4 @@
-public class Vowels_Constants_InString {
+public class Print_Vowels_Constants_In_String {
     public static void main(String[] args) {
         String str="Inder";
         int vowel=0;

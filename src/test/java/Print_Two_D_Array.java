@@ -1,4 +1,4 @@
-public class Two_D_Array {
+public class Print_Two_D_Array {
 
     public static void main(String[] args) {
         int mat[][] = { { 1, 2, 3, 4 },

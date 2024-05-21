@@ -1,4 +1,4 @@
-public class Reverse_Integer {
+public class Print_Reverse_Integer {
 
     public static void main(String[] args){
 

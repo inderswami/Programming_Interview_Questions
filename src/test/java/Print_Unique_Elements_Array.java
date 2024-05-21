@@ -1,4 +1,4 @@
-public class Unique_Elements_Array {
+public class Print_Unique_Elements_Array {
     public static void main(String[] args) {
         int arr[] = {5, 6, 3, 3, 2, 2};
         // to find unique in string we need to convert string into character array

@@ -1,4 +1,4 @@
-public class Fibonacci_Series {
+public class Print_Fibonacci_Series {
     public static void main(String[] args) {
         int a = 0;
         int b = 1;

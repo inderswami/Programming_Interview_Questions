@@ -1,4 +1,4 @@
-public class Common_Prefix_StringArray {
+public class Print_Common_Prefix_In_StringArray {
 
     public static void main(String[] args) {
         String[] str = {"in", "inder", "india"};

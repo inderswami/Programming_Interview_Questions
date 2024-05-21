@@ -1,4 +1,4 @@
-public class Special_Character_String {
+public class Print_Special_Character_In_String {
     public static void main(String[] args) {
         String str = "Hellow! How is@";
         int count = 0;

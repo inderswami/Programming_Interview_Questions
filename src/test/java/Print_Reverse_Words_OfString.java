@@ -1,4 +1,4 @@
-public class Reverse_Words_OfString {
+public class Print_Reverse_Words_OfString {
     public static String rev(String s){
         String[] words=s.split("");
         String reverse="";
