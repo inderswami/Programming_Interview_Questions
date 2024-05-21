@@ -10,7 +10,7 @@ public class Testopen {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
         driver.findElement(By.xpath("//*[@type='email']")).sendKeys("inder.swami@gmail.com");
-
+// try and get sucess
 
     }
 
