@@ -1,26 +1,25 @@
+import java.util.Arrays;
+
 public class Shift_Zero_To_Right {
 
     public static void main(String[] args) {
         int[] intArray = new int[]{1, 0, 2, 0, 3, 4, 0, 5, 6, 0, 7, 8, 9, 10}; // Sample array with zeros
-        int[] newArray = new int[intArray.length]; // Creating a new array to store the result
-        int count = 0;
 
-        // First, copy all non-zero elements to the beginning of the new array
-        for (int number : intArray) {
-            if (number != 0) {
-                newArray[count] = number;
+        // Shift zeros to the right in the same array
+        int count = 0; // Count of non-zero elements
+
+        for (int i = 0; i < intArray.length; i++) {
+            if (intArray[i] != 0) {
+                // Swap non-zero element to the leftmost available position
+                int temp = intArray[count];
+                intArray[count] = intArray[i];
+                intArray[i] = temp;
                 count++;
+//                Test1
             }
         }
 
-        // Then, fill the remaining elements of the new array with zeros
-        while (count < newArray.length) {
-            newArray[count] = 0;
-            count++;
-        }
-
-        // Print the new array
+        // Print the modified array
         System.out.println("Original Array: " + Arrays.toString(intArray));
-        System.out.println("Array with Zeros Shifted to Right: " + Arrays.toString(newArray));
     }
 }
